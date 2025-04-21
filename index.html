@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Этаж</title>
+		<link rel="icon" href="floor.png" type="image/x-icon">
+		<link rel="stylesheet" href="styles.css">
+		<script src='main.js' defer></script>
+	</head>
+	<body>
+		<div class="main" id="inp">
+			<h1>Помогу определить этаж</h1>
+			<p>Квартира</p>
+			<p><input class="inp" id="kv" type="number"/></p>
+			<p>№ первой квартиры</p>
+			<p><input class="inp" id="first_kv" type="number"/></p>
+			<p>Квартир на этаже</p>
+			<p><input class="inp" id="kv_count" type="number"/></p>
+			<div class="cls_floor" id="floor" style="display: none;">
+				<p>Этаж</p>
+				<p id="out"></p>
+			</div>
+			<button class="btns" onclick="result()">Продолжить</button>
+		</div>
+	</body>
+</html>

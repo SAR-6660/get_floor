@@ -1,0 +1,59 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html, body {
+    height: 50%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.main
+{
+
+    color: white;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btns
+{
+    margin: 5px;
+	border: 3px solid white;
+	border-radius: 6px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inp
+{
+    margin: 5px;
+ 	width: 20ch;
+ 	border: 3px solid white;
+ 	border-radius: 3px;
+ 	text-align:center;
+ 	background-color: black;
+ 	color: white;
+    cursor: text;
+    outline:none;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
